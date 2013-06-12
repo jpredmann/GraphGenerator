@@ -41,7 +41,7 @@ class GraphTester():
 		generator = gg.GraphGenerator()
 		generator.registerConstraints(cycleConstraint)
 		generator.generateGraph(self.testArray, 0.1)
-		generator.outputGraph(3, "testGraph")
+		#generator.outputGraph(3, "testGraph")
 		graph = generator.getGraphObject()
 		print nx.info(graph)
 
